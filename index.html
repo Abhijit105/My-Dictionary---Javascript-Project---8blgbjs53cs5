@@ -1,1 +1,58 @@
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" description="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Abhijit Kumar" />
+    <meta
+      name="description"
+      content="This is a dictionary app that helps to search for the meaning of a word based on the data fetched from an API. The app also stores a history of recently used words."
+    />
+    <title>My DICTIONARY App</title>
+    <link rel="icon" href="./favicon_io/favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script defer src="./script.js"></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">
+        <img
+          src="./favicon_io/android-chrome-192x192.png"
+          alt="app logo"
+          class="logo-img"
+        />
+        <span class="app-name">My DICTIONARY App</span>
+      </div>
+      <button class="btn">History</button>
+    </nav>
+    <main class="main">
+      <h2>Search for new word</h2>
+      <div class="search-bar">
+        <input type="text" name="word" id="word" />
+        <button id="search-btn">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="search-icon"
+          >
+            <path
+              d="M8.25 10.875a2.625 2.625 0 115.25 0 2.625 2.625 0 01-5.25 0z"
+            />
+            <path
+              fill-rule="evenodd"
+              d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-1.125 4.5a4.125 4.125 0 102.338 7.524l2.007 2.006a.75.75 0 101.06-1.06l-2.006-2.007a4.125 4.125 0 00-3.399-6.463z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </div>
+    </main>
+  </body>
+</html>

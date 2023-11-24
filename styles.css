@@ -1,1 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
 
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f1fc;
+  color: #222;
+  height: 100vh;
+}
+
+.btn {
+  background-color: #222;
+  color: #f4f1fc;
+  border: none;
+  padding: 1.6rem 3.2rem;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  font-family: inherit;
+  cursor: pointer;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  height: 10rem;
+}
+
+.logo {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo-img {
+  height: 100%;
+}
+
+.app-name {
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+
+.main {
+  height: 80%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#word {
+  width: 33%;
+  background-color: #ddd;
+  border: none;
+  padding: 1.6rem 3.2rem;
+  border-radius: 100px;
+}
+
+#search-btn {
+  border: none;
+}
+
+.search-icon {
+  width: 3.2rem;
+  height: 3.2rem;
+}
