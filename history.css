@@ -16,7 +16,7 @@ body {
   height: 100vh;
 }
 
-.history-btn {
+.search-btn {
   background-color: #222;
   color: #f4f1fc;
   border: none;
@@ -54,44 +54,19 @@ body {
 }
 
 .main {
-  height: 80%;
+  min-height: 80%;
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-  justify-content: center;
   font-weight: 400;
   font-size: 1.6rem;
 }
 
-.search-bar {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#word {
-  width: 33%;
-  background-color: #ddd;
-  border: none;
-  padding: 1.6rem 3.2rem;
-  border-radius: 100px;
-}
-
-#search-btn {
-  border: none;
-}
-
-.search-icon {
-  width: 3.2rem;
-  height: 3.2rem;
-  cursor: pointer;
-}
-
 #word-meaning-container {
   display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
   justify-content: center;
   padding: 2rem;
+  gap: 2rem;
 }
 
 .card {
@@ -110,8 +85,9 @@ body {
   text-align: left;
 }
 
-#card-delete-btn {
+.card-delete-btn {
   position: absolute;
   right: 0;
   bottom: 4px;
+  cursor: pointer;
 }
